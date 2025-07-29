@@ -1,1 +1,5 @@
-#logo { width: 100px;color: aliceblue ;}
+#logo { width: 6rem;color: aliceblue;position: relative;padding-top: 2rem;}
+#intestazione {background-color: blue;height: 4rem; background-image: url("image/pattern.png"); background-repeat: repeat; background-size: 300px; }
+#texcolor {color: aqua;}
+#sottotesto {margin: 0%;}
+#titolo {margin-bottom: 0%;}
