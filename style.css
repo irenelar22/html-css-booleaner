@@ -4,4 +4,9 @@
 #sottotesto {margin: 0%;}
 #titolo {margin-bottom: 0%;}
 #descrizione {margin-top: 0%;}
-.tabella{ background-color: blue;}
+.tabella{ background-color: blue ; width: 40px;}
+.tab{background-color: aquamarine; height: 100px;}
+table{padding: 0%;border-collapse: collapse;}
+.colonna{width: 20%;}
+#tabe{height: 100px;}
+.image2{ text-decoration: antiquewhite;}
