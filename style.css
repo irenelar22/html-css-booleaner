@@ -1,12 +1,103 @@
-#logo { width: 6rem;color: aliceblue;position: relative;padding-top: 2rem;}
-#intestazione {background-color: blue;height: 4rem; background-image: url("image/pattern.png"); background-repeat: repeat; background-size: 300px; }
-#texcolor {color: aqua;}
-#sottotesto {margin: 0%;}
-#titolo {margin-bottom: 0%;}
-#descrizione {margin-top: 0%;}
-.tabella{ background-color: blue ; width: 40px;}
-.tab{background-color: aquamarine; height: 100px;}
-table{padding: 0%;border-collapse: collapse;}
-.colonna{width: 20%;}
-#tabe{height: 100px;}
-.image2{ text-decoration: antiquewhite;}
+.centratura {
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  text-align: center;
+}
+.immagine-riga {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+#logo {
+  width: 6rem;
+  color: aliceblue;
+  position: relative;
+  padding-top: 2rem;
+}
+
+#intestazione {
+  background-color: blue;
+  height: 4rem;
+  background-image: url("image/pattern.png");
+  background-repeat: repeat;
+  background-size: 300px;
+}
+
+#texcolor {
+  color: aqua;
+}
+
+#sottotesto {
+  margin: 0%;
+}
+
+#titolo {
+  margin-bottom: 0%;
+}
+
+#descrizione {
+  margin-top: 0%;
+}
+
+.tabella {
+  background-color: blue;
+  width: 40px;
+}
+
+.tab {
+  background-color: aquamarine;
+  height: 100px;
+}
+
+table {
+  padding: 0%;
+  border-collapse: collapse;
+}
+
+.colonna {
+  width: 20%;
+}
+
+#tabe {
+  height: 100px;
+}
+
+.container {
+  position: relative;
+}
+
+.imagine1 {
+  position: relative;
+  /* text-align:; */
+  color: white;
+}
+
+.testo-da-aggiungere {
+  /* margin: 0px; */
+  /* background-image: url('esempio1.jpg'); */
+  /* background-repeat: no-repeat; */
+  /* color: brown; */
+  /* background-color: red; */
+  /* font-size: 140%; */
+  /* font-weight: normal; */
+  /* line-height: 260px; */
+  /* text-align: center; */
+  /* width: 240px; */
+  /* height: 150px; */
+  position: absolute;
+  top: 5%;
+  left: 3%; 
+  font-family: cursive; 
+  font-weight: bold;
+  font-size: large;
+}
+
+.testo { 
+   font-family: cursive; 
+  font-weight: bold;
+  font-size: large;
+  color: gray;
+
+}
